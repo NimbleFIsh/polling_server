@@ -6,6 +6,8 @@ const { v4: uuidv4 } = require('uuid');
 server.use(cors());
 const upper = el => el[0].toUpperCase() + el.substring(1);
 
+server.get('/', (req, res) => res.send('Hi!'));
+
 server.get('/messages/unread', (req, res) => {
     let result = [],
     rndNumber = null;
