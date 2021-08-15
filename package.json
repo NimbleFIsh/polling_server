@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "nodemon": "^2.0.12",
+    "uuid": "^8.3.2"
+  },
+  "name": "polling_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NimbleFIsh/polling_server.git"
+  },
+  "author": "NimbleFish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NimbleFIsh/polling_server/issues"
+  },
+  "homepage": "https://github.com/NimbleFIsh/polling_server#readme",
+  "description": ""
+}
